@@ -1,0 +1,56 @@
+body{
+    background:#f5f5f5;
+    perspective: 800px;
+	perspective-origin: 50% 100px;
+  }
+  
+  .Dice{
+    position:relative;
+    width:150px;
+    height:150px; 
+    margin: 50px;
+    transform-style:preserve-3d;
+    transform:rotatex(-3deg);
+    transition:3000ms ease-in;
+  }
+  
+  .Dice:hover{
+     transform:rotateX(365deg) rotateY(155deg);
+  }
+  
+  .Dice div{
+    position:absolute;
+    width:150px;
+    height:150px;
+    background:rgba(0,0,0,0.1);
+  }
+  
+  .Dice div:nth-child(1){
+    transform:translateZ(75px);
+    background:rgba(253, 87, 88, 0.8);
+  }
+  
+  .Dice div:nth-child(2){
+    transform: rotateX(180deg) translateZ(75px);
+    background:rgba(222, 100, 175, 0.8)
+  }
+  
+  .Dice div:nth-child(3){
+    transform: rotateY(-90deg) translateZ(75px);
+    background: rgba(212, 104, 205, 0.8);
+  }
+  
+  .Dice div:nth-child(4){
+    transform:rotateY(90deg) translateZ(75px);
+    background:rgba(205, 107, 225, 0.8)
+  }
+  
+  .Dice div:nth-child(5){
+    transform: rotateX(90deg) translateZ(75px);
+    background: rgba(182, 156, 228, 0.8);
+  }
+  
+  .Dice div:nth-child(6){
+    transform:rotateX(-90deg) translateZ(75px);
+    background: rgba(149, 234, 226, 0.8);
+  }
