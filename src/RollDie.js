@@ -12,8 +12,8 @@ class RollDie extends Component {
 
     rollDice() {
         let roll1 = Math.floor(Math.random() * 6) + 1;
-        let roll2 = Math.floor(Math.random() * 6) + 1;
-        this.setState({ dice1: roll1, dice2: roll2, rolling: true});
+            let roll2 = Math.floor(Math.random() * 6) + 1;
+            this.setState({ dice1: roll1, dice2: roll2, rolling: true });
 
         setTimeout(()=> {
             this.setState({rolling: false});
