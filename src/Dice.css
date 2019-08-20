@@ -6,9 +6,9 @@ body{
   
   .Dice{
     position:relative;
-    width:150px;
-    height:150px; 
-    margin: 0 50px 50px 50px;
+    width:20vw;
+    height:20vw; 
+    margin: 50px;
     transform-style:preserve-3d;
     transform:rotatex(-3deg);
     transition:300ms ease-in;
@@ -47,8 +47,8 @@ body{
   
   .Dice div{
     position:absolute;
-    width:150px;
-    height:150px;
+    width:20vw;
+    height:20vw;
     background:rgba(0,0,0,0.1);
     display: flex;
     justify-content: center;
