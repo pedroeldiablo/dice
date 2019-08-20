@@ -21,25 +21,24 @@ body{
   }
 
   .Dice.Dice-2 {
-    transform:rotateX(90deg);
+    transform:rotateX(87deg);
   }
 
   .Dice.Dice-3 {
-    transform:rotateY(90deg); 
+    transform:rotateX(-3deg) rotateY(90deg); 
     
-   
   }
 
   .Dice.Dice-4 {
-    transform:rotateY(270deg);
+    transform: rotateX(-3deg) rotateY(270deg);
   }
 
   .Dice.Dice-5 {
-    transform:rotateX(270deg);
+    transform:rotateX(267deg);
   }
 
   .Dice.Dice-6 {
-    transform:rotateX(180deg);
+    transform:rotateX(177deg);
   }
 
   .Dice:hover{
